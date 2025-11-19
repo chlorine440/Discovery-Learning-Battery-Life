@@ -1,0 +1,54 @@
+metadata_version: 1
+name: Discovery Learning predicts battery cycle life from minimal experiments
+description: Fast and reliable validation of novel designs in complex physical systems
+  such as batteries is critical to accelerating technological innovation. However,
+  battery development remains bottlenecked by the high time and energy costs required
+  to evaluate the lifetime of new designs. Notably, existing lifetime forecasting
+  approaches require datasets containing battery lifetime labels for target designs
+  to improve accuracy and cannot make reliable predictions before prototyping, thus
+  limiting rapid feedback. Here we introduce Discovery Learning (DL), a scientific
+  machine-learning paradigm that integrates active learning, physics-guided learning,
+  and zero-shot learning into a human-like reasoning loop, drawing inspiration from
+  educational psychology. DL can learn from historical battery designs and reduce
+  the need for prototyping, thereby predicting the lifetime of new designs from minimal
+  experiments. To test DL, we present industrial-grade battery data comprising 123
+  large-format lithium-ion pouch cells, including diverse material-design combinations
+  and cycling protocols. Trained on public datasets of cell designs different from
+  ours, DL achieves 7.2% test error in predicting cycle life using physical features
+  from the first 50 cycles of 51% of cell prototypes. Under conservative assumptions,
+  this results in savings of 98% in time and 95% in energy compared to conventional
+  practices. DL represents a key advance in accurate and efficient battery lifetime
+  prediction and, more broadly, helps realize the promise of machine learning to accelerate
+  scientific discovery.
+tags:
+- AI4Science
+- Scientific machine learning
+- Battery
+authors:
+- name: Jiawei Zhang
+  affiliations:
+  - name: University of Michigan
+- name: Yifei Zhang
+  affiliations:
+  - name: National University of Singapore
+- name: Baozhao Yi
+  affiliations:
+  - name: National University of Singapore
+- name: Yao Ren
+  affiliations:
+  - name: Farasis Energy USA
+- name: Qi Jiao
+  affiliations:
+  - name: Farasis Energy USA
+- name: Hanyu Bai
+  affiliations:
+  - name: University of Michigan
+- name: Weiran Jiang
+  affiliations:
+  - name: Farasis Energy USA
+- name: Ziyou Song
+  affiliations:
+  - name: University of Michigasn
+corresponding_contributor:
+  name: ziyou song
+  email: ziyou@umich.edu

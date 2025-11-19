@@ -1,0 +1,62 @@
+{
+	"version": 1,
+	"base_image": "registry.codeocean.com/codeocean/py-r:python3.10.12-R4.2.3-IRkernel-ubuntu22.04",
+	"options": {},
+	"installers": {
+		"conda": {
+			"packages": [
+				{
+					"name": "python",
+					"version": "3.9.16"
+				}
+			]
+		},
+		"pip": {
+			"packages": [
+				{
+					"name": "matplotlib",
+					"version": "3.7.0"
+				},
+				{
+					"name": "numpy",
+					"version": "1.23.5"
+				},
+				{
+					"name": "openpyxl",
+					"version": "3.0.10"
+				},
+				{
+					"name": "optuna",
+					"version": "3.1.0"
+				},
+				{
+					"name": "pandas",
+					"version": "2.3.1"
+				},
+				{
+					"name": "scikit-learn",
+					"version": "1.3.2"
+				}
+			],
+			"options": {},
+			"pre_install_options": {}
+		},
+		"vscode": {
+			"packages": [
+				{
+					"name": "ms-python.python"
+				},
+				{
+					"name": "ms-toolsai.jupyter"
+				},
+				{
+					"name": "reditorsupport.r"
+				},
+				{
+					"name": "saoudrizwan.claude-dev"
+				}
+			],
+			"version": "4.100.3"
+		}
+	}
+}
